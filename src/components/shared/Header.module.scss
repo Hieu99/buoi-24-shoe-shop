@@ -1,0 +1,36 @@
+.header{
+    background-color: black;
+    color: white;
+
+    .headerWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
+        .headerLogo{
+            color: white;
+            transition: all .5s;
+            font-size: 20px;
+            text-transform: capitalize;
+            &:hover{
+                color: teal;
+            }
+        };
+
+        ul{
+            list-style: none;
+            li{
+                a{
+                    color: white;
+                    transition: all .3s;
+                    text-decoration: none;
+                }
+    
+                &:hover a{
+                    color: teal;
+                }
+            }
+        }
+    };
+}
+
